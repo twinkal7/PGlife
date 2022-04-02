@@ -73,7 +73,7 @@ $interested_users_count = mysqli_num_rows($result_4);
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb py-2">
             <li class="breadcrumb-item">
-                <a href="homepage.php">Home</a>
+                <a href="index.php">Home</a>
             </li>
             <li class="breadcrumb-item">
                 <a href="propertylistpage.php?city=<?= $property['city_name']; ?>"><?= $property['city_name']; ?></a>

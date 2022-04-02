@@ -57,7 +57,7 @@ $interested_users_properties = mysqli_fetch_all($result_3, MYSQLI_ASSOC);
 
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="homepage.php">Home</a></li>
+              <li class="breadcrumb-item"><a href="index.php">Home</a></li>
               <li class="breadcrumb-item active" aria-current="page">
                   <?php echo $city_name; ?>
                 </li>
